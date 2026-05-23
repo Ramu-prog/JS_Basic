@@ -16,7 +16,7 @@ console.log(0.0 / 0.0);//NaN
 console.log("9" / 2);// converted in number 9/2 then =4.5
 console.log("9" / "2");//9/2=4.5
 
-//moduls gave remainder value
+//moduls operator  gave remainder value
 console.log(9 % 2); //1
 console.log(8 % 2);// 0
 console.log(100 % 3);//1

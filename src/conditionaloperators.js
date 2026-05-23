@@ -59,6 +59,7 @@ else {
 
 console.log('-----prallel if if if else condition------');
 
+
 let browser = 'chrome';
 
 if (browser === 'chrome') {
@@ -73,7 +74,38 @@ if (browser === 'edge') {
 if (browser === 'safari') {
     console.log('launch safari');
 }
-
 else {
-    console.log('plz pass the right browser:' + browser);
+    console.log('plz pass the right browser,invalid browser');
 }
+
+console.log('---if elseif else if----');
+
+//we can not write break statement break is only part of switch statement
+
+let browserName = 'chrome';
+
+if (browserName === 'chrome') {
+    console.log('launch chrome');
+}
+else if (browserName === 'firefox') {
+    console.log('launch firefox');
+}
+
+else if (browserName === edge) {
+    console.log('launch edge');
+}
+
+else if (browserName === safari) {
+    console.log('laucnh safari');
+
+}
+else {
+    console.log('plz pass the rigt browser,invalid browser..');
+}
+
+
+
+
+
+
+

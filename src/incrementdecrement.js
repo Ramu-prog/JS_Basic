@@ -54,6 +54,25 @@ console.log(bill);//99
 let amt = 10;
 console.log(amt--);//10
 console.log(amt);//9
+
+
 console.log("_____________");
 
-//js 4 :30m
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

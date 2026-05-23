@@ -28,19 +28,19 @@
 // let j = --(i++);//error
 // console.log(++11); //error
 
-let m=0 , n=0;
-let p= --m* --n * n-- * m--;
+let m = 0, n = 0;
+let p = --m * --n * n-- * m--;
 console.log(p);
 console.log(m);
 console.log(n);
 
-//console.log(++true);
+//console.log(++true); sytanx error
 
-let a= 10n;
+let a = 10n; //big interger nummber
 console.log(++a); //11n
 
-let d=1.5, D=2.5;
-console.log(d++ + ++d); 1.5+3.5 //5.0
+let d = 1.5, D = 2.5;
+console.log(d++ + ++d); 1.5 + 3.5 //5.0
 console.log(d);
 console.log(D);
 
