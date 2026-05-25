@@ -1,4 +1,6 @@
 // There are 8 falsy values in javascript:fasle,0,-0,on,nan,undefined,null,"".
+//truthy fasly concept only apllicable i if else condition and loop.
+
 //1.false
 if (false) {
     console.log('hi');
